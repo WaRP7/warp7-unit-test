@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #WaRP7 Bluetooth Enable Script
 
 #Reset

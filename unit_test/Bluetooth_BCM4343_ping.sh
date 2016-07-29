@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #WaRP7 Bluetooth Scan and Ping Script
 
 hcitool scan
