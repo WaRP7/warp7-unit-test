@@ -9,7 +9,6 @@ TEXT="Charging Status:"
 OFF="0x00"
 ON="0x02"
 
-clear
 printf "\t\033[7m# BATTERY CHARGER TEST #\033[0m\n"
 echo
 echo
@@ -35,11 +34,9 @@ do
 		status="On"
 		printf "\033[1A\033[K"
 		printf "$TEXT $status\n"
-
 	else
 		status="Error"
 		printf "\033[1A\033[K"
 		printf "$TEXT $status\n"
-
 	fi
 done
