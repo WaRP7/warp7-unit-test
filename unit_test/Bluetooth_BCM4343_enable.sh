@@ -11,8 +11,8 @@ echo 1 > /sys/class/gpio/gpio145/value
 hciattach ttymxc2 bcm43xx 3000000 flow -t 20
 
 #Start Bluetooth device
-hcitool hci0 up
-hcitool hci0 piscan
+hciconfig hci0 up
+hciconfig hci0 piscan
 hciconfig -a
 hcitool dev
 
